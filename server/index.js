@@ -18,4 +18,4 @@ mongoose.connect('mongodb://localhost:27017/movie-graphql').then(()=>{
     console.log(`Server is running at ${res.url}`);
 }).catch((err)=>{
     console.log(err);
-});
+})
